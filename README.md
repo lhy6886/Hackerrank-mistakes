@@ -13,14 +13,6 @@ write down mistakes made or something important to CS freshmen
 
 ---
 
-## ✅ 添加新错题
-
-1. 复制模板：[mistake-template.md](./templates/mistake-template.md)
-2. 粘贴到对应目录（如 `algorithms/`）
-3. 重命名为 `xxx-题目名.md`
-4. 按模板填写内容
-
----
 
 ## 🏷️ 标签说明
 

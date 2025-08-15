@@ -1,3 +1,4 @@
+```python
 def compareTriplets(a, b):
     # Write your code here
     alice = bob = 0
@@ -7,8 +8,8 @@ def compareTriplets(a, b):
         elif ai < bi:
             bob += 1
     return [alice, bob]
-
+```
 To compare two people's grades stored in separate lists, we can use  zip() , which pairs the corresponding elements into tuples so we can compare them one by one.
 
-Time complexity: O(n)
-Space complexity: O(1)
+**Time complexity**: O(n)
+**Space complexity**: O(1)

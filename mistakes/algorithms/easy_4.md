@@ -1,3 +1,4 @@
+```python
 def diagonalDifference(arr):
     # Write your code here
     n = len(arr)
@@ -7,7 +8,7 @@ def diagonalDifference(arr):
     for i in range(n):
         res = abs(sum(arr[i][i] - arr[i][n-1-i]))
     return res
-
+```
 both are good for this question, the second one is more clear for freshmen
 We need to compute the absolute difference between the sums of the two diagonals of a square matrix of unknown size.
 eg.we got a 3*3 square matrix, 
@@ -19,5 +20,5 @@ the location of these numbers are: 1[0,0], 2[0,1], 3[0,2], 4[1,0], 7[2,0]
 
 and everything is clear, we got the sum firstly and we got absolute difference secondly
 
-Time complexity: O(n)
-Space complexity: O(1)
+**Time complexity**: O(n)
+**Space complexity**: O(1)
